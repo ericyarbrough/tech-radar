@@ -12,7 +12,7 @@ const initialRadarData = {
     { name: "Languages" },
     { name: "Infrastructure" },
     { name: "Tools" },
-    { name: "Techniques" },
+    { name: "Platforms" },
   ],
   rings: [
     { name: "ADOPT", color: "#93c47d" },
@@ -25,18 +25,64 @@ const initialRadarData = {
   entries: [
       {
         "quadrant": 1,
+        "ring": 2,
+        "label": "OpenAPM.io",
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
         "ring": 0,
-        "label": "AWS DynamoDB",
-        "active": true,
-        "moved": 1
+        "label": "Swagger",
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Next.js",
+        "moved": 0
       },
       {
         "quadrant": 2,
         "ring": 0,
-        "label": "Exasol",
-        "active": true,
-        "moved": 1
-      }
+        "label": "Jest",
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "MariaDB",
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Redis",
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 1,
+        "label": "MongoDB",
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 1,
+        "label": "Postgres",
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 2,
+        "label": "Cassandra",
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 2,
+        "label": "Scylladb",
+        "moved": 0
+      },
   ]
   //ENTRIES
 }

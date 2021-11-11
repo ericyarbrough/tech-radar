@@ -4,17 +4,19 @@ https://ericyarbrough.github.io/tech-radar/
 
 ![Tech radar logo](src/logo.jpg)
 
-## Development
+Please feel free to fork this repository
 
-1. Run the yarn install command:
+## Local Development
 
-```
-yarn 
+1. Install the npm modules:
+
+```sh
+yarn install
 ```
 
 2. Start local dev server:
 
-```
+```sh
 yarn start
 ```
 
@@ -22,6 +24,40 @@ yarn start
  
 ```
 http://localhost:3000/
+```
+
+## Update with new data
+
+1. The data is for the technologies by updating
+
+```
+src/data.js
+```
+
+New Entries should be in the format of 
+
+``` json
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "xxxxxx",
+        "active": true,
+        "moved": 1
+      },
+```
+
+## Publishing to GH Pages
+
+1. Build the new docs/ folder 
+
+```sh
+yarn build
+```
+
+2. Push to Github and enable GH Pages under Settings > Pages. Set the public folder to be served from the /docs folder. Your tech radar will then be available at 
+
+```
+${yourusername}.github.io/tech-radar/
 ```
 
 Please check out original [Fork](https://github.com/zalando/tech-radar) for credit or any additional implementation details 
