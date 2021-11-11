@@ -1,9 +1,8 @@
 {
-  "name": "zalando-tech-radar",
-  "version": "2018.5.0",
+  "name": "eric-tech-radar",
+  "version": "2020",
   "description": "Visualizing our technology choices",
-  "homepage": "https://github.com/zalando/tech-radar#readme",
-  "repository": "https://github.com/zalando/tech-radar.git",
+  "homepage": "https://ericyarbrough.github.io/tech-radar",
   "license": "MIT",
   "directories": {
     "doc": "docs"
