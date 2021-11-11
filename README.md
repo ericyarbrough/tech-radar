@@ -1,6 +1,6 @@
 # Tech Radar
 
-![Tech radar logo](docs/logo.jpg)
+![Tech radar logo](src/logo.jpg)
 
 ## Development
 
