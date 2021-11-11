@@ -22,7 +22,7 @@ yarn start
 http://localhost:3000/
 ```
 
-Please check out original [Fork](https://github.com/zalando/tech-radar) for original implementation details 
+Please check out original [Fork](https://github.com/zalando/tech-radar) for credit or any additional implementation details 
 
 ## License
 
