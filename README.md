@@ -1,8 +1,6 @@
-https://ericyarbrough.github.io/tech-radar/
+# Tech Radar
 
-Fork of https://github.com/zalando/tech-radar. 
-
-Please check out original repository for implementation details 
+![Tech radar logo](docs/logo.jpg)
 
 ## Development
 
@@ -23,6 +21,8 @@ yarn start
 ```
 http://localhost:3000/
 ```
+
+Please check out original [Fork](https://github.com/zalando/tech-radar) for original implementation details 
 
 ## License
 
