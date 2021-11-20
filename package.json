@@ -1,7 +1,7 @@
 {
   "name": "eric-tech-radar",
   "version": "2021.0.1",
-  "description": "Visualizing my technology choices",
+  "description": "Visualizing technology choices",
   "homepage": "https://ericyarbrough.github.io/tech-radar",
   "license": "MIT",
   "directories": {

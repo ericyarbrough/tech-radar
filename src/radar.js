@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-function radar_visualization(config) {
+function radarVisualization(config) {
   // custom random number generator, to make random sequence reproducible
   // source: https://stackoverflow.com/questions/521295
   let seed = 42;
@@ -449,4 +449,4 @@ function radar_visualization(config) {
     .on('tick', ticked);
 }
 
-export default radar_visualization;
+export default radarVisualization;

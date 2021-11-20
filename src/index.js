@@ -1,4 +1,4 @@
 import initialRadarData from './data';
-import radar_visualization from './radar';
+import radarVisualization from './radar';
 
-radar_visualization(initialRadarData);
+radarVisualization(initialRadarData);
