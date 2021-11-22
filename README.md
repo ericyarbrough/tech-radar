@@ -2,7 +2,7 @@
 
 https://ericyarbrough.github.io/tech-radar/
 
-![Tech radar logo](src/logo.jpg)
+![Tech radar logo](public/logo.jpg)
 
 Please feel free to fork this repository
 

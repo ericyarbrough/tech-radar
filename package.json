@@ -14,16 +14,14 @@
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
-    "htmllint": "^0.7.2",
     "parcel": "^2.0.1",
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "start": "parcel src/index.html --port 3000",
-    "build": "yarn clean && parcel build src/index.html --public-url './' --dist-dir docs/ --no-source-maps",
+    "start": "parcel public/index.html --port 3000",
+    "build": "yarn clean && parcel build public/index.html --public-url './' --dist-dir docs/ --no-source-maps",
     "clean": "rimraf docs",
-    "lint": "npm run lint:js && npm run lint:html",
-    "lint:js": "eslint src/*.js",
-    "lint:html": "htmllint src/*.html"
+    "lint": "npm run lint:js",
+    "lint:js": "eslint src/*.js"
   }
 }
